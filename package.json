@@ -1,0 +1,50 @@
+{
+  "name": "skillx-backend",
+  "version": "1.0.0",
+  "description": "SkillX Backend API",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "dev:client": "next dev",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@radix-ui/react-slot": "latest",
+    "@radix-ui/react-tabs": "latest",
+    "@tailwindcss/postcss": "^4.1.16",
+    "@vercel/analytics": "latest",
+    "axios": "latest",
+    "bcryptjs": "latest",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "cors": "latest",
+    "date-fns": "^4.1.0",
+    "dotenv": "latest",
+    "express": "latest",
+    "express-session": "latest",
+    "jsonwebtoken": "latest",
+    "lucide-react": "^0.454.0",
+    "mongoose": "latest",
+    "next": "16.0.1",
+    "next-themes": "latest",
+    "passport": "latest",
+    "passport-github2": "latest",
+    "passport-linkedin-oauth2": "latest",
+    "passport-local": "latest",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "tailwind-merge": "^2.5.5",
+    "tailwindcss-animate": "^1.0.7",
+    "tw-animate-css": "latest",
+    "twilio": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "@types/react": "19.2.2",
+    "@types/react-dom": "19.2.2",
+    "nodemon": "^2.0.20",
+    "postcss": "^8.5",
+    "tailwindcss": "^4.1.16",
+    "typescript": "^5"
+  }
+}
